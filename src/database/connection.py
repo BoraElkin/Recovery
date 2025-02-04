@@ -7,11 +7,11 @@ import os
 load_dotenv()
 
 # Database configuration
-DB_USER = "boraelkin"
-DB_PASSWORD = "recproject1905"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "recovery_db"
+DB_USER = "###"
+DB_PASSWORD = "###"
+DB_HOST = "###"
+DB_PORT = "###"
+DB_NAME = "###"
 
 DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
